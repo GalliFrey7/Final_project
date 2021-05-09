@@ -1,0 +1,32 @@
+{{ define "index" }}
+
+{{ template "header"}}
+
+
+<div class="hero container hero-container">
+
+<p class="content mid">All advertisements</p>
+
+
+{{ range. }}
+<div class="blocks">
+  <div class="b-item">
+    <div class="bi">
+      <h2>{{ .Title }}</h2>
+    </div>
+    <div class="bi">
+      <p class="dd">{{ .Anons }}</p>
+    </div>
+    <div class="bi danger">
+      <a href="/post/{{ .Id }}" class="btn btn-danger link ">Read more ...</a>
+    </div>
+  </div>
+</div>
+    {{ else }}
+<p class="lead">Статей нет!</p>
+
+    {{ end }}
+
+  {{ template "footer"}}
+
+  {{ end }}
