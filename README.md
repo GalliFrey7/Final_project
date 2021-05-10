@@ -13,6 +13,6 @@ https://trello.com/b/lOSK4UMJ/project-tasks
 
 For Design used Figma
 
-https://trello.com/invite/b/lOSK4UMJ/41c0a4ea19346d8a55e6d6a2bb87d6f4/project-tasks
+https://www.figma.com/file/TWCrFFjoFopDQFZqL4GGFc/Group-Project-pl
 
 ![](https://github.com/GalliFrey7/Final_project/blob/master/pictures/image_2021-05-10_09-10-25.png)
